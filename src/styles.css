@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+.intro-box {
+ min-height: 47vh;
+}
+.intro-box h2 {
+  margin: 5rem;
+}
+.intro-box p {
+  margin: 5rem;
+}

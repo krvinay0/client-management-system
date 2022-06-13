@@ -1,0 +1,25 @@
+<div class="intro-box px-5">
+  <h2 class="text-center">Welcome to Clients</h2>
+  <p>
+    Lorem ipsum is the most popular form of dummy content or placeholder text.
+    It is a pseudo-Latin word originated from Cicero's De Finibus Bonorum et
+    Malorum. There is no actual meaning of any Lorem Ipsum sentences even in
+    Latin or any other language
+  </p>
+
+  <table class="table border">
+    <tr >
+      <td class="border text-center">ID</td>
+      <td class="border text-center">Title</td>
+      <td class="border text-center">user ID</td>
+      <td class="border text-center">Completed</td>
+    </tr>
+    <tr *ngFor="let item of data ">
+      <td class="border text-center">{{item.id}}</td>
+      <td class="border text-center">{{item.title}}</td>
+      <td class="border text-center">{{item.userId}}</td>
+      <td class="border text-center">{{item.completed}}</td>
+    </tr>
+  </table>  
+
+</div>
